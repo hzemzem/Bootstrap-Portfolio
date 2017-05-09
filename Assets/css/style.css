@@ -24,11 +24,13 @@ aside {
 }
 .navbar-header {
 	background-color: #4aaaa5;
+	height: 90px;
 }
 .navbar-header h1 {
 	color : #fff;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 26px;
+	height: 90px;
 }
 .nav-item {
 	padding: 5px 15px;
@@ -38,12 +40,18 @@ aside {
 	margin-top: 25px;
 }
 .navbar-nav li {
+	padding-top: 25px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	color: #777;
 }
+h1{
+	padding-top: 10px;
+}
 .navbar-nav a {
 	color: #777;
+	border-right: 1px solid lightgrey;
+	padding-right: 20px;
 }
 .navbar-nav a:hover {
 	text-decoration: none;
@@ -64,7 +72,8 @@ input[type="submit"] {
 	width: 120px;
 	margin-top: 15px;
 }
-h2 {
+h2, 
+h3{
 	color: #4aaaa5;
 	font-family: 'Georgia', "Times New Roman", Times, serif;
 	font-size: 28px;
@@ -72,20 +81,24 @@ h2 {
 	margin-bottom: 25px;
 	border-bottom: solid 2px #CCC;
 }
-h3 {
-	color: #4aaaa5;
-	font-family: 'Georgia', "Times New Roman", Times, serif;
+h3{
 	font-size: 22px;
-	padding-bottom: 20px;
-	margin-bottom: 25px;
-	border-bottom: solid 2px #CCC;
 }
 footer {
+	clear: both;
 	background-color: #666;
 	font-family: 'Georgia', "Times New Roman", Times, serif;
 	color: #CCC;
 	border-top: solid 5px #4aaaa5;
 	padding-top: 25px;
+}
+form{
+	padding: 20px;
+}
+.btn{
+	background-color: #4aaaa5;
+	color: white;
+	text-decoration: none;
 }
 .image-container {
 	width: 50%;
@@ -101,7 +114,7 @@ footer {
 	height: auto;
 	z-index: 1;
 }
-.float {
+.gall {
 	width: 100%;
 	height: 50px;
 	background-color: #4aaaa5;
@@ -109,7 +122,7 @@ footer {
 	position: relative;
 	z-index: 10;
 }
-.float h4 {
+.gall h4 {
 	color: #fff;
 	font-family: "Times New Roman", Georgia, Serif;
 	font-size: 22px;
@@ -119,15 +132,15 @@ footer {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -85px;
+    margin: 0 auto;
 }
-.footer, .push {
+.footer{
     height: 85px;
 }
 .footer .container p {
 	margin-top: 10px;
 }
-.clear {
+.ga {
 	clear: both;
 	margin-top: 30px;
 	margin-bottom: 10px;
@@ -164,7 +177,7 @@ footer {
 	h3 {
 		padding-top: 25px;
 	}
-	.portfolio {
+	.gallery {
 		margin: 20px 10px;
 	}
 	.asideMargin {
